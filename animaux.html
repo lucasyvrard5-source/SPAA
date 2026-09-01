@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animaux à l'adoption — SPAA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span>Ouvert du mardi au dimanche, 10h–18h</span>
+    <span>06 12 34 56 78 · contact@spaa-asso.fr</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="30" r="9" fill="#C08A2E"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#C08A2E"/>
+        <ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#C08A2E"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#C08A2E"/>
+        <ellipse cx="40" cy="22" rx="4" ry="5" fill="#C08A2E"/>
+      </svg>
+      SPAA
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu">Menu ☰</button>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="animaux.html" aria-current="page">Animaux</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="actualites.html">Actualités</a></li>
+      <li><a href="faq.html">Conseils</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <div class="breadcrumb">Accueil / Animaux</div>
+    <span class="eyebrow">Fonctionnalité — Animaux à l'adoption</span>
+    <h1>Ils attendent une famille</h1>
+    <p style="max-width:640px; color:var(--ink-soft);">Chaque animal du refuge est évalué avant d'être proposé à l'adoption. Contactez-nous pour organiser une rencontre.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="tous">Tous</button>
+      <button class="filter-btn" data-filter="chien">Chiens</button>
+      <button class="filter-btn" data-filter="chat">Chats</button>
+    </div>
+
+    <div class="card-grid">
+
+      <div class="article-card animal-card" data-type="chien">
+        <div class="art-media" aria-hidden="true">
+          <svg width="56" height="56" viewBox="0 0 48 48"><circle cx="24" cy="30" r="9" fill="#2F4538"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#2F4538"/><ellipse cx="40" cy="22" rx="4" ry="5" fill="#2F4538"/></svg>
+          <span class="photo-note">Photo à venir</span>
+        </div>
+        <div class="art-body">
+          <h3>Rex</h3>
+          <div class="animal-meta"><span>Chien</span><span>3 ans</span><span>Croisé berger</span></div>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Calme et affectueux, à l'aise avec les enfants. Déjà habitué à la laisse.</p>
+          <a class="btn btn-brass" style="padding:9px 16px; font-size:.75rem;" href="contact.html?sujet=adoption">Demander à rencontrer Rex</a>
+        </div>
+      </div>
+
+      <div class="article-card animal-card" data-type="chat">
+        <div class="art-media" aria-hidden="true">
+          <svg width="56" height="56" viewBox="0 0 48 48"><circle cx="24" cy="30" r="9" fill="#2F4538"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#2F4538"/><ellipse cx="40" cy="22" rx="4" ry="5" fill="#2F4538"/></svg>
+          <span class="photo-note">Photo à venir</span>
+        </div>
+        <div class="art-body">
+          <h3>Luna</h3>
+          <div class="animal-meta"><span>Chatte</span><span>2 ans</span><span>Européenne</span></div>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Discrète et douce, Luna apprécie les environnements calmes, idéale en appartement.</p>
+          <a class="btn btn-brass" style="padding:9px 16px; font-size:.75rem;" href="contact.html?sujet=adoption">Demander à rencontrer Luna</a>
+        </div>
+      </div>
+
+      <div class="article-card animal-card" data-type="chien">
+        <div class="art-media" aria-hidden="true">
+          <svg width="56" height="56" viewBox="0 0 48 48"><circle cx="24" cy="30" r="9" fill="#2F4538"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#2F4538"/><ellipse cx="40" cy="22" rx="4" ry="5" fill="#2F4538"/></svg>
+          <span class="photo-note">Photo à venir</span>
+        </div>
+        <div class="art-body">
+          <h3>Nala</h3>
+          <div class="animal-meta"><span>Chienne</span><span>1 an</span><span>Type husky</span></div>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Arrivée récemment au refuge (voir actualités), pleine d'énergie, en cours de sociabilisation.</p>
+          <a class="btn btn-brass" style="padding:9px 16px; font-size:.75rem;" href="contact.html?sujet=adoption">Demander à rencontrer Nala</a>
+        </div>
+      </div>
+
+      <div class="article-card animal-card" data-type="chat">
+        <div class="art-media" aria-hidden="true">
+          <svg width="56" height="56" viewBox="0 0 48 48"><circle cx="24" cy="30" r="9" fill="#2F4538"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#2F4538"/><ellipse cx="40" cy="22" rx="4" ry="5" fill="#2F4538"/></svg>
+          <span class="photo-note">Photo à venir</span>
+        </div>
+        <div class="art-body">
+          <h3>Miel</h3>
+          <div class="animal-meta"><span>Chatte</span><span>8 mois</span><span>Rousse</span></div>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Joueuse et curieuse, s'entend bien avec les autres chats.</p>
+          <a class="btn btn-brass" style="padding:9px 16px; font-size:.75rem;" href="contact.html?sujet=adoption">Demander à rencontrer Miel</a>
+        </div>
+      </div>
+
+      <div class="article-card animal-card" data-type="chien">
+        <div class="art-media" aria-hidden="true">
+          <svg width="56" height="56" viewBox="0 0 48 48"><circle cx="24" cy="30" r="9" fill="#2F4538"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#2F4538"/><ellipse cx="40" cy="22" rx="4" ry="5" fill="#2F4538"/></svg>
+          <span class="photo-note">Photo à venir</span>
+        </div>
+        <div class="art-body">
+          <h3>Balto</h3>
+          <div class="animal-meta"><span>Chien</span><span>6 ans</span><span>Croisé labrador</span></div>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Sénior tranquille, cherche un foyer calme. Idéal pour une première adoption.</p>
+          <a class="btn btn-brass" style="padding:9px 16px; font-size:.75rem;" href="contact.html?sujet=adoption">Demander à rencontrer Balto</a>
+        </div>
+      </div>
+
+      <div class="article-card animal-card" data-type="chat">
+        <div class="art-media" aria-hidden="true">
+          <svg width="56" height="56" viewBox="0 0 48 48"><circle cx="24" cy="30" r="9" fill="#2F4538"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#2F4538"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#2F4538"/><ellipse cx="40" cy="22" rx="4" ry="5" fill="#2F4538"/></svg>
+          <span class="photo-note">Photo à venir</span>
+        </div>
+        <div class="art-body">
+          <h3>Charly</h3>
+          <div class="animal-meta"><span>Chaton</span><span>4 mois</span><span>Tigré</span></div>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Très sociable, s'entend avec les enfants et les autres animaux.</p>
+          <a class="btn btn-brass" style="padding:9px 16px; font-size:.75rem;" href="contact.html?sujet=adoption">Demander à rencontrer Charly</a>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="form-note" style="margin-top:32px; max-width:680px;">
+      Contenu de démonstration : noms, descriptions et vignettes sont fictifs. Seules des photos réelles sont disponibles côté association à ce stade (pas encore de textes ni de logo) — les fiches définitives devront être complétées avec les vraies photos et descriptions de chaque animal, mises à jour depuis l'espace d'administration une fois celui-ci mis en place.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot-grid">
+    <div>
+      <h4>SPAA</h4>
+      <p style="max-width:320px; font-size:.9rem;">Association loi 1901 dédiée à l'accueil, aux soins et à l'adoption des animaux abandonnés.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="animaux.html">Animaux</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+        <li><a href="faq.html">Conseils</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Association</h4>
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Faire un don</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <span>© 2026 SPAA — site vitrine (prototype)</span>
+    <span>Contenus de démonstration</span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

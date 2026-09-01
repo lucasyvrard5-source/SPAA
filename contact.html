@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — SPAA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span>Ouvert du mardi au dimanche, 10h–18h</span>
+    <span>06 12 34 56 78 · contact@spaa-asso.fr</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="30" r="9" fill="#C08A2E"/><ellipse cx="12" cy="16" rx="4.2" ry="5.4" fill="#C08A2E"/>
+        <ellipse cx="22" cy="10" rx="4.2" ry="5.4" fill="#C08A2E"/><ellipse cx="34" cy="12" rx="4.4" ry="5.6" fill="#C08A2E"/>
+        <ellipse cx="40" cy="22" rx="4" ry="5" fill="#C08A2E"/>
+      </svg>
+      SPAA
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu">Menu ☰</button>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="animaux.html">Animaux</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="actualites.html">Actualités</a></li>
+      <li><a href="faq.html">Conseils</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <div class="breadcrumb">Accueil / Contact</div>
+    <span class="eyebrow">Fonctionnalité — Contact</span>
+    <h1>Une question, un projet d'adoption ?</h1>
+    <p style="max-width:640px; color:var(--ink-soft);">Écrivez-nous via le formulaire ci-dessous, nous répondons en général en moins de 48h. Pour une urgence animalière, merci de nous appeler directement.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container contact-grid">
+
+    <form class="form-wrap" id="contact-form" novalidate>
+      <div class="field">
+        <label for="nom">Nom et prénom</label>
+        <input type="text" id="nom" name="nom" required autocomplete="name">
+      </div>
+      <div class="field">
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+      </div>
+      <div class="field">
+        <label for="sujet">Sujet</label>
+        <select id="sujet" name="sujet" required>
+          <option value="">Choisir un sujet…</option>
+          <option value="adoption">Projet d'adoption</option>
+          <option value="don">Don / parrainage</option>
+          <option value="benevolat">Bénévolat</option>
+          <option value="signalement">Signalement d'un animal</option>
+          <option value="autre">Autre demande</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-brass">Envoyer le message</button>
+      <div class="status-msg" id="form-status" role="status"></div>
+      <p class="form-note">
+        Prototype : ce formulaire valide la saisie côté navigateur mais n'envoie pas réellement d'e-mail. En production, il devra être relié à une messagerie (ex. service d'envoi côté serveur ou module du CMS retenu) — voir le cahier des charges, section « Matériel et outils nécessaires ».
+      </p>
+    </form>
+
+    <div>
+      <div class="kennel-card" style="margin-bottom:20px;">
+        <span class="tag-date">Adresse</span>
+        <h3>La SPAA</h3>
+        <p>14 chemin des Ormes<br>76000 Rouen</p>
+      </div>
+      <div class="kennel-card" style="margin-bottom:20px;">
+        <span class="tag-date">Téléphone</span>
+        <h3>06 12 34 56 78</h3>
+        <p>Du mardi au dimanche, 10h–18h</p>
+      </div>
+      <div class="kennel-card">
+        <span class="tag-date">E-mail</span>
+        <h3>contact@spaa-asso.fr</h3>
+        <p>Pour toute question ne nécessitant pas de réponse immédiate.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container foot-grid">
+    <div>
+      <h4>SPAA</h4>
+      <p style="max-width:320px; font-size:.9rem;">Association loi 1901 dédiée à l'accueil, aux soins et à l'adoption des animaux abandonnés.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="animaux.html">Animaux</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+        <li><a href="faq.html">Conseils</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Association</h4>
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Faire un don</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <span>© 2026 SPAA — site vitrine (prototype)</span>
+    <span>Contenus de démonstration</span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
