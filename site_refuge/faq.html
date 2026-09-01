@@ -2,6 +2,14 @@
 
 <html lang="fr">
 <head>
+<script>
+(function () {
+  var isIdentityToken = /(?:^|[#&])(invite_token|confirmation_token|recovery_token|email_change_token)=/.test(window.location.hash);
+  if (isIdentityToken && !/\/admin\/?$/.test(window.location.pathname)) {
+    window.location.replace('/admin/' + window.location.hash);
+  }
+})();
+</script>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Conseils &amp; FAQ — SPAA</title>
