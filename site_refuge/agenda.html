@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<script>
+(function () {
+  var isIdentityToken = /(?:^|[#&])(invite_token|confirmation_token|recovery_token|email_change_token)=/.test(window.location.hash);
+  if (isIdentityToken && !/\/admin\/?$/.test(window.location.pathname)) {
+    window.location.replace('/admin/' + window.location.hash);
+  }
+})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Agenda des évènements — SPAA</title>
