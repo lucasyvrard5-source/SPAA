@@ -1,0 +1,99 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "refuge"
+    label: "Gestion du refuge"
+    files:
+      - label: "🐾 Animaux"
+        name: "animals"
+        file: "content/animals.yml"
+        fields:
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Introduction", name: intro, widget: text}
+          - label: "Animaux à l'adoption"
+            name: animals
+            widget: list
+            fields:
+              - {label: "Nom", name: name, widget: string}
+              - {label: "Type", name: type, widget: select, options: [chien, chat]}
+              - {label: "Espèce", name: species, widget: string}
+              - {label: "Âge", name: age, widget: string}
+              - {label: "Race / particularité", name: breed, widget: string}
+              - {label: "Description", name: description, widget: text}
+              - {label: "Photo", name: photo, widget: image, required: false}
+      - label: "📅 Agenda"
+        name: events
+        file: "content/events.yml"
+        fields:
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Introduction", name: intro, widget: text}
+          - label: "Évènements"
+            name: events
+            widget: list
+            fields:
+              - {label: "Date / horaires", name: date, widget: string}
+              - {label: "Type", name: type, widget: select, options: [adoption, portes-ouvertes, collecte]}
+              - {label: "Titre", name: title, widget: string}
+              - {label: "Description", name: description, widget: text}
+              - {label: "Badge", name: label, widget: string}
+      - label: "📰 Actualités"
+        name: news
+        file: "content/news.yml"
+        fields:
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Introduction", name: intro, widget: text}
+          - label: "Actualités"
+            name: news
+            widget: list
+            fields:
+              - {label: "Date / catégorie", name: date, widget: string}
+              - {label: "Titre", name: title, widget: string}
+              - {label: "Description", name: description, widget: text}
+              - {label: "Photo", name: photo, widget: image, required: false}
+      - label: "❓ FAQ & conseils"
+        name: faq
+        file: "content/faq.yml"
+        fields:
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Introduction", name: intro, widget: text}
+          - label: "Conseils"
+            name: steps
+            widget: list
+            fields:
+              - {label: "Titre", name: title, widget: string}
+              - {label: "Texte", name: text, widget: text}
+          - label: "Questions fréquentes"
+            name: questions
+            widget: list
+            fields:
+              - {label: "Question", name: question, widget: string}
+              - {label: "Réponse", name: answer, widget: text}
+      - label: "🏠 Accueil"
+        name: home
+        file: "content/home.yml"
+        fields:
+          - {label: "Titre principal", name: hero_title, widget: string}
+          - {label: "Texte principal", name: hero_text, widget: text}
+          - {label: "Bouton animaux", name: hero_button, widget: string}
+          - {label: "Titre présentation", name: about_title, widget: string}
+          - {label: "Texte présentation", name: about_text, widget: text}
+          - {label: "Bouton contact", name: about_button, widget: string}
+      - label: "⚙️ Coordonnées & paramètres"
+        name: settings
+        file: "content/settings.yml"
+        fields:
+          - {label: "Nom", name: name, widget: string}
+          - {label: "Description", name: description, widget: text}
+          - {label: "Horaires", name: opening, widget: string}
+          - {label: "Téléphone", name: phone, widget: string}
+          - {label: "E-mail", name: email, widget: string}
+          - {label: "Adresse", name: address, widget: string}
+          - {label: "Lien don", name: don_url, widget: string}
+          - {label: "Lien mentions légales", name: legal_url, widget: string}

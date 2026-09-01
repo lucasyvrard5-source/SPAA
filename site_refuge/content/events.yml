@@ -1,0 +1,40 @@
+title: Les évènements du refuge
+intro: 'Adoptions encadrées, journées portes ouvertes et collectes : retrouvez ici
+  toutes les dates à venir.'
+events:
+- date: 15 août 2026 · 10h–17h
+  type: portes-ouvertes
+  title: Journée portes ouvertes
+  description: Visite libre du refuge, rencontre avec les bénévoles et présentation
+    des animaux disponibles à l’adoption.
+  label: Ouvert à tous
+- date: 6 septembre 2026 · 9h–13h
+  type: collecte
+  title: Collecte de croquettes et litières
+  description: Une collecte est organisée devant l’entrée du refuge pour reconstituer
+    nos stocks avant l’hiver.
+  label: Don sur place
+- date: 19 septembre 2026 · sur RDV
+  type: adoption
+  title: Session d’adoption encadrée
+  description: Rencontres individuelles avec les animaux prêts à l’adoption, accompagnées
+    par un référent du refuge.
+  label: Sur inscription
+- date: 3 octobre 2026 · sur RDV
+  type: adoption
+  title: Session d’adoption encadrée
+  description: Deuxième session du mois, places limitées. Inscription via le formulaire
+    de contact.
+  label: Sur inscription
+- date: 17 octobre 2026 · 10h–17h
+  type: portes-ouvertes
+  title: Journée portes ouvertes d’automne
+  description: Visite du refuge, ateliers de sensibilisation à la protection animale
+    pour petits et grands.
+  label: Ouvert à tous
+- date: 8 novembre 2026 · 9h–13h
+  type: collecte
+  title: Collecte de couvertures et paniers
+  description: Avant l’hiver, aidez-nous à réunir des couvertures, paniers et jouets
+    pour nos pensionnaires.
+  label: Don sur place
