@@ -1,48 +1,55 @@
 title: Ils attendent une famille
-intro: Chaque animal du refuge est évalué avant d’être proposé à l’adoption. Contactez-nous
-  pour organiser une rencontre.
+intro: Chaque animal du refuge est évalué avant d’être proposé à l’adoption.
+  Contactez-nous pour organiser une rencontre.
 animals:
-- name: Rex
-  type: chien
-  species: Chien
-  age: 3 ans
-  breed: Croisé berger
-  description: Calme et affectueux, à l’aise avec les enfants. Déjà habitué à la laisse.
-  photo: ''
-- name: Luna
-  type: chat
-  species: Chatte
-  age: 2 ans
-  breed: Européenne
-  description: Discrète et douce, Luna apprécie les environnements calmes, idéale
-    en appartement.
-  photo: ''
-- name: Nala
-  type: chien
-  species: Chienne
-  age: 1 an
-  breed: Type husky
-  description: Arrivée récemment au refuge, pleine d’énergie, en cours de sociabilisation.
-  photo: ''
-- name: Miel
-  type: chat
-  species: Chatte
-  age: 8 mois
-  breed: Rousse
-  description: Joueuse et curieuse, s’entend bien avec les autres chats.
-  photo: ''
-- name: Balto
-  type: chien
-  species: Chien
-  age: 6 ans
-  breed: Croisé labrador
-  description: Sénior tranquille, cherche un foyer calme. Idéal pour une première
-    adoption.
-  photo: ''
-- name: Charly
-  type: chat
-  species: Chaton
-  age: 4 mois
-  breed: Tigré
-  description: Très sociable, s’entend avec les enfants et les autres animaux.
-  photo: ''
+  - name: Rex
+    type: chien
+    species: Chien
+    age: 3 ans
+    breed: Croisé berger
+    description: Calme et affectueux, à l’aise avec les enfants. Déjà habitué à la laisse.
+    photo: ""
+  - name: Luna
+    type: chat
+    species: Chatte
+    age: 2 ans
+    breed: Européenne
+    description: Discrète et douce, Luna apprécie les environnements calmes, idéale
+      en appartement.
+    photo: ""
+  - name: Nala
+    type: chien
+    species: Chienne
+    age: 1 an
+    breed: Type husky
+    description: Arrivée récemment au refuge, pleine d’énergie, en cours de sociabilisation.
+    photo: ""
+  - name: Miel
+    type: chat
+    species: Chatte
+    age: 8 mois
+    breed: Rousse
+    description: Joueuse et curieuse, s’entend bien avec les autres chats.
+    photo: ""
+  - name: Balto
+    type: chien
+    species: Chien
+    age: 6 ans
+    breed: Croisé labrador
+    description: Sénior tranquille, cherche un foyer calme. Idéal pour une première
+      adoption.
+    photo: ""
+  - name: Charly
+    type: chat
+    species: Chaton
+    age: 4 mois
+    breed: Tigré
+    description: Très sociable, s’entend avec les enfants et les autres animaux.
+    photo: ""
+  - name: test
+    type: chat
+    species: tedy
+    age: 12 ans
+    breed: zff
+    description: fzef
+    photo: /images/uploads/makeqrcode-2-.png
