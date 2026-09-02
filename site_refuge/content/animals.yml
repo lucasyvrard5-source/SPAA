@@ -46,10 +46,3 @@ animals:
     breed: Tigré
     description: Très sociable, s’entend avec les enfants et les autres animaux.
     photo: ""
-  - name: test
-    type: chat
-    species: tedy
-    age: 12 ans
-    breed: zff
-    description: fzef
-    photo: ""
