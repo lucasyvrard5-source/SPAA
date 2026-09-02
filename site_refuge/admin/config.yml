@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "images/uploads"
+media_folder: "site_refuge/images/uploads"
 public_folder: "/images/uploads"
 
 locale: "fr"
@@ -13,7 +13,7 @@ collections:
     files:
       - label: "🐾 Animaux"
         name: "animals"
-        file: "content/animals.yml"
+        file: "site_refuge/content/animals.yml"
         fields:
           - {label: "Titre", name: title, widget: string}
           - {label: "Introduction", name: intro, widget: text}
@@ -30,7 +30,7 @@ collections:
               - {label: "Photo", name: photo, widget: image, required: false}
       - label: "📅 Agenda"
         name: events
-        file: "content/events.yml"
+        file: "site_refuge/content/events.yml"
         fields:
           - {label: "Titre", name: title, widget: string}
           - {label: "Introduction", name: intro, widget: text}
@@ -45,7 +45,7 @@ collections:
               - {label: "Badge", name: label, widget: string}
       - label: "📰 Actualités"
         name: news
-        file: "content/news.yml"
+        file: "site_refuge/content/news.yml"
         fields:
           - {label: "Titre", name: title, widget: string}
           - {label: "Introduction", name: intro, widget: text}
@@ -59,7 +59,7 @@ collections:
               - {label: "Photo", name: photo, widget: image, required: false}
       - label: "❓ FAQ & conseils"
         name: faq
-        file: "content/faq.yml"
+        file: "site_refuge/content/faq.yml"
         fields:
           - {label: "Titre", name: title, widget: string}
           - {label: "Introduction", name: intro, widget: text}
@@ -77,7 +77,7 @@ collections:
               - {label: "Réponse", name: answer, widget: text}
       - label: "🏠 Accueil"
         name: home
-        file: "content/home.yml"
+        file: "site_refuge/content/home.yml"
         fields:
           - {label: "Titre principal", name: hero_title, widget: string}
           - {label: "Texte principal", name: hero_text, widget: text}
@@ -87,7 +87,7 @@ collections:
           - {label: "Bouton contact", name: about_button, widget: string}
       - label: "⚙️ Coordonnées & paramètres"
         name: settings
-        file: "content/settings.yml"
+        file: "site_refuge/content/settings.yml"
         fields:
           - {label: "Nom", name: name, widget: string}
           - {label: "Description", name: description, widget: text}
@@ -95,5 +95,4 @@ collections:
           - {label: "Téléphone", name: phone, widget: string}
           - {label: "E-mail", name: email, widget: string}
           - {label: "Adresse", name: address, widget: string}
-          - {label: "Lien don", name: don_url, widget: string}
-          - {label: "Lien mentions légales", name: legal_url, widget: string}
+          - {label: "Lien
