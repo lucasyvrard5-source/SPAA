@@ -95,4 +95,4 @@ collections:
           - {label: "Téléphone", name: phone, widget: string}
           - {label: "E-mail", name: email, widget: string}
           - {label: "Adresse", name: address, widget: string}
-          - {label: "Lien
+          - {label: "Lien mentions légales", name: legal_url, widget: string}
