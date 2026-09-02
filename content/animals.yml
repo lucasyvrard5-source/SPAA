@@ -1,3 +1,10 @@
 title: test
-intro: dzzd
-animals: []
+intro: de
+animals:
+  - name: test
+    type: chien
+    species: est
+    age: 12 ans
+    breed: test
+    description: test
+    photo: /images/uploads/makeqrcode-2-.png
